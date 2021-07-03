@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://downloads.droidontime.com/dot11/wayne/vanilla/dotOS-R-v5.1.1-wayne-OFFICIAL-20210614-2154.zip
-  ROM_NAME: Dotos
+  ROM_URL: https://media-gzga-person.gzoss.xstore.ctyun.cn/PERSONCLOUD/a340c4d1-2b07-4c8a-9cf4-3d76a914282e.zip?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=B12spNbFIkHcJjk5MvKN&x-amz-UID=493056185&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22miui_wayne_21.2.24_6cda0926e6_11.0.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-limit=rate%3D10240%2Cconcurrency%3D10&Signature=Hy0Zx1LzmlGUEiDgnxBGa01tzR8%3D&x-amz-SHID=171302972&Expires=1625323875&x-amz-FSIZE=2656164663&x-amz-UFID=41542112776605511
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -59,6 +59,6 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof ./final/GSI.zip
          
             
