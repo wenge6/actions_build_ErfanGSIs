@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/15/8.0.5.0/cn/20210616123154/a1e7a1d5/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://downloads.droidontime.com/dot11/wayne/vanilla/dotOS-R-v5.1.1-wayne-OFFICIAL-20210614-2154.zip
+  ROM_NAME: Dotos
   TZ: Asia/Shanghai
 
 jobs:
