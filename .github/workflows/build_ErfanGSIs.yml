@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.1.0.QFHCNXM/violet_images_V12.5.1.0.QFHCNXM_20210623.0000.00_10.0_cn_b3e943475d.tgz
+  ROM_URL: https://150-138-239-1.ksyungslb.com/bigota.d.miui.com/V12.5.1.0.QFGMIXM/miui_LAVENDERGlobal_V12.5.1.0.QFGMIXM_6b7c4f76f0_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fxiaomirom.com%2F
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -59,6 +59,6 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer  gof final/GSI.zip
+              ./transfer  gof   final/GSI.zip
          
             
